@@ -1,7 +1,9 @@
 # Your code here
 # For output purposes, use "puts" instead of "print" or "p"
 
-
+protein = gets 
+veg1 = gets
+veg2 = gets
 
 def meal_choice (veg1, veg2, protein = "meat")
   protein = gets
@@ -9,9 +11,5 @@ def meal_choice (veg1, veg2, protein = "meat")
   ans =  "A plate of #{protein} with #{veg1} and #{veg2}."
   return ans
 end
-
-protein = gets 
-veg1 = gets
-veg2 = gets
 
 meal_choice(veg1, veg2, protein)
