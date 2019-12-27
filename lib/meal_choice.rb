@@ -8,3 +8,8 @@ def meal_choice (veg1, veg2, protein = "meat")
   return ans
 end
 
+protein = gets 
+veg1 = gets
+veg2 = gets
+
+meal_choice(veg1, veg2, protein)
